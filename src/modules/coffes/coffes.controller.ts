@@ -1,5 +1,5 @@
 import { Controller, Get, Param, Post, Body, HttpCode, HttpStatus } from '@nestjs/common';
-import { CoffeeService } from './app.service';
+import { CoffeeService } from './coffes.service';
 import { CreateCoffeeDto } from './create-coffee.dto';
 
 @Controller()
